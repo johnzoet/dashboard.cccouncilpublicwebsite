@@ -2,7 +2,7 @@
 # dashboard.cccouncilpublicwebsite.tk
 
 service: dashboard
-app: aws-python-app
+app: cccouncil
 org: johnzoet
 
 frameworkVersion: '2'
@@ -69,7 +69,7 @@ resources:
 
 custom:
   client:
-    bucketName: dashboard.cccouncilpublicwebsite.tk
+    bucketName: dashboard.cccouncilpublicwebsite.aws.zoetebier.net
     distributionFolder: frontend
     indexDocument: index.html
     errorDocument: error.html
