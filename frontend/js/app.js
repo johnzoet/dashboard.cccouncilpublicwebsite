@@ -5,7 +5,9 @@ $(document).ready(function(){
   refreshStatCounts();
 });
 
-var get_stats_endpoint = "https://s0h0atnj44.execute-api.ap-southeast-2.amazonaws.com/dev/stats/"
+//var get_stats_endpoint = "https://s0h0atnj44.execute-api.ap-southeast-2.amazonaws.com/dev/stats/"
+var get_stats_endpoint = "https://epjsop1obf.execute-api.ap-southeast-2.amazonaws.com/dev/stats/"
+
 
 function setStats(statName, statValue) {
   // Get div containing stat count and set the new statValue
